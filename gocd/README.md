@@ -1,13 +1,14 @@
-# This module is based on the gitlab project for go_ci
+This module is based on the gitlab project for go_ci
 
 full credit to https://github.com/michaeltchapman/puppet-gocd for inspiring this update.
 
 more abstraction and this version is dropped into modules. 
 
+This example will pull the debian version of gocd.  
 ```
 call it with class {"gocd":}
 ```
-# This version is simply called gocd, Heira usage style has been changed, put this into something like local.yaml
+This version is simply called gocd, Heira usage style has been changed, put this into something like local.yaml
 Example 
 ```
 gocd::active: true
