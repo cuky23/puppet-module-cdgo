@@ -4,8 +4,9 @@ a module for puppet to install gocd
 This module is based on the gitlab project for go_ci,  full credit to https://github.com/michaeltchapman/puppet-gocd for inspiring this update.
 
 I have put more abstraction around getting versions of software out to heira and this version is just dropped into modules. 
+
 ```
-call it with class {"gocd":}
+class {"gocd":}
 ```
 This version is simply called gocd, Heira usage style has been changed, put this into something like local.yaml
 Example 
