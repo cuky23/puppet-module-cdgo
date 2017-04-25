@@ -3,7 +3,7 @@ a module for puppet to install gocd
 
 This module is based on the gitlab project for puppet goci,  full credit to https://github.com/michaeltchapman/puppet-gocd for inspiring this update.
 
-I have put more abstraction around getting versions of software out to heira and this version is just dropped into modules. I will on all the tests stuff one day.  feel free to use the code examples, feedback welcome.
+I have put more abstraction around getting versions of software out to heira and this version is just dropped into modules. Feel free to use the code examples, feedback welcome.
 
 ```
 class {"gocd":} or include gocd
