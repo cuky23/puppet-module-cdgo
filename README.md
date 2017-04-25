@@ -7,7 +7,7 @@ I have put more abstraction around getting versions of software out to heira and
 ```
 call it with class {"gocd":}
 ```
-# This version is simply called gocd, Heira usage style has been changed, put this into something like local.yaml
+This version is simply called gocd, Heira usage style has been changed, put this into something like local.yaml
 Example 
 ```
 gocd::active: true
